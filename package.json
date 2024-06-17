@@ -3,22 +3,20 @@
   "displayName": "TechDocs Viewer",
   "description": "View official tech documentation within VS Code",
   "version": "1.0.0",
-  "publisher": "your-publisher-name",
+  "publisher": "being-swe",
   "engines": {
     "vscode": "^1.90.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:extension.openTechDocs"
-  ],
+  "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
         "command": "extension.openTechDocs",
-        "title": "Open Tech Docs"
+        "title": "OpenTechDocs"
       }
     ],
     "menus": {
